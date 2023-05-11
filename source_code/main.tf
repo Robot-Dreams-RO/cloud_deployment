@@ -3,11 +3,11 @@ provider "azurerm" {
 }
 
 locals {
-    resource_group_name = "rg-robot-dreams-deploy"
-    location            = "West Europe"
-    storage_account_name = "storrobotdreamsdeploy"
-    app_service_plan_name = "splan-robot-dreams-deploy"
-    function_app_name = "func-robot-dreams-deploy"
+  resource_group_name   = "rg-robot-dreams-deploy"
+  location              = "West Europe"
+  storage_account_name  = "storrobotdreamsdeploy"
+  app_service_plan_name = "splan-robot-dreams-deploy"
+  function_app_name     = "func-robot-dreams-deploy"
 }
 
 resource "azurerm_resource_group" "robot_dreams" {
